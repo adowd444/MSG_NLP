@@ -76,7 +76,7 @@ model = KMeans(n_clusters=true_k, init='k-means++', max_iter=300, n_init=10, ran
 model.fit(X)
 
 
-# print("Top terms per cluster:")
+# print("Top Terms Per Cluster:")
 order_centroids = model.cluster_centers_.argsort()[:, ::-1]
 terms = vectorizer.get_feature_names_out()
 id_clus = []
