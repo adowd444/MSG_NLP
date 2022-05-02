@@ -1,5 +1,5 @@
 # MSG_NLP
-This project was created while working with Mission Solutions Group and NLP techniques.
+This project was created while working with Mission Solutions Group and NLP techniques. The corpus used for this project is named parsedText.json.
 
 1. Use main.py to clean text data (parsedtext.json) and separate documents into clusters using k-means clustering
 
