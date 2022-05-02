@@ -7,3 +7,7 @@ Use python notebook MSG.ipynb to create model for document similarity based on k
 
 Use BERT notebook to classify documents using SBERT (Sentence-BERT)
 
+Use Doc2Vec for small corpuses (<5000 documents) to classify documents with adequate accuracy
+
+Use Doc2Vec Annoy for large corpuses (>5000 documents) to classify documents
+
